@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+}
+
+.bg-img {
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.70),
+    rgba(0,0,0,0.70)),
+    url("images/bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-fleet {
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.70),
+    rgba(0,0,0,0.70)),
+    url("images/bg-fleet.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heading {
+  padding: 10% 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-family: 'Catamaran', sans-serif;
+  color: #f1f4df;
+  text-shadow: 2px 2px #eeeeee;
+}
+
+h6 {
+  color: #dedede;
+  font-family: 'Catamaran', sans-serif;
+}
+
+
+.boring {
+  font-family: 'Schoolbell', sans-serif;
+  color: #fe5f55;
+  margin-top: 2%;
+}
+
+.navbar {
+  padding: 1%;
+
+
+
+}
+.navbar-nav {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.navbar-nav > li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fe5f55;
+  border: #f1f4df solid 1px;
+}
+
+/* SWIPER */
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 25%;
+  height: 300px;
+}
+
+.imgBx1, .imgBx2, .imgBx3 {
+  width: 100%;
+
+}
+
+
+footer {
+  color: #fff;
+}
