@@ -26,8 +26,11 @@ html, body {
   padding: 10% 5%;
 }
 
+#headline a {
+  color: #fe5f55;
+}
 .hidden {
-  display: none;
+  visibility: hidden;
 }
 
 h1 {
